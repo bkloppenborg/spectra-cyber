@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpectraCyber", "SpectraCyber\SpectraCyber.csproj", "{DFA908D1-E530-45DC-8173-C06D6D99AA2B}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{240B8D59-3A27-4959-B0CD-AB1F445E2CDE}"
+EndProject
 Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -13,6 +19,8 @@ Global
 		{DFA908D1-E530-45DC-8173-C06D6D99AA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFA908D1-E530-45DC-8173-C06D6D99AA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFA908D1-E530-45DC-8173-C06D6D99AA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{240B8D59-3A27-4959-B0CD-AB1F445E2CDE}.Debug|Any CPU.ActiveCfg = Debug
+		{240B8D59-3A27-4959-B0CD-AB1F445E2CDE}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
